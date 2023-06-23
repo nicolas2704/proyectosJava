@@ -24,7 +24,7 @@ public class sueldo_semanal {
 
             SS=(double)SH*HT;
 
-            if (SS>=0 && SS<=150){
+            if (SS>=0 && SS<=160){
                 SS-=(double)(SS*0.05);
             } else if (SS>150 && SS<300){
                 SS-= (double) (SS*0.07);
